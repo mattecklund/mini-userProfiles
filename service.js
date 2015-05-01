@@ -25,7 +25,6 @@ app.service('mainService', function(){
 
 	this.getUsers = function(){
 		return data;
-		console.log('Service\'s getUsers was called');
 	}
 
 })
